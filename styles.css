@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#mainContainer{
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(240, 210, 155);
+}
+
+nav{
+    height: 7em;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(240, 210, 155);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #86242A;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: .8em 1.2em;
+    color:black;
+    margin-right: 1em;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    position: relative;
+}
+nav ul a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #86242A;
+    transition: width 0.5s ease;
+}
+
+nav ul a:hover::after {
+    width: 100%;
+}
+
+
+
+.logo{
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-left: 3em;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    
+}
+
+.rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4em;
+}
+
+
+
+
+
+.shoppingCart img{
+    height: 2em;
+    margin-right: 2em;
+    cursor: pointer;
+    transition: .1s;
+}
+.shoppingCart img:active{
+    transform: scale(.95);
+}
+
+.login{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: .6em 1.8em;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    background-color: #86242A;
+    box-shadow: 1px 2px 4px 1px black;
+    transition: .1s;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+.login:hover{
+    box-shadow: 4px 2px 4px 1px black;
+    background-color: #ac2e36;
+}
+.login:active{
+    transform: scale(.95);
+}
+
+
+
+
+
+
+
+#deals{
+    
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.dealsDiv{
+    height: 68vh;
+    width: 90%;
+    margin-top: 5em;
+    background-color: #86242A;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.dealsImg{
+    display: flex;
+    justify-content: center;
+    margin-right: 6em;
+    
+    
+    
+}
+.dealsImg img{
+    border-radius: 15px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.dealsBtnShop{
+    position: relative;
+    top: -8em;
+    left: 11.5em;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: .6em 1.8em;
+    font-weight: 500;
+    color: white;
+    background-color: #ac2e36;
+    box-shadow: 1px 2px 4px 1px black;
+    transition: .1s;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+.dealsBtnShop:hover{
+    box-shadow: 4px 2px 4px 1px black;
+    background-color: #ac2e36;
+}
+.dealsBtnShop:active{
+    transform: scale(.95);
+}
+
+
+
+
+
+
+
+#velvetCollection{
+    height: 70vh;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(240, 210, 155);
+    
+    
+}
+.velvetTitle{
+    margin-top: 5em;
+}
+.velvetTitle p{
+    font-size: 1.4em;
+    font-family: "Roboto", serif;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    width: 20%;
+    margin-top: 1em;
+    background-color: #86242A;
+}
+
+
+.velvetPicDiv{
+    height: 36em;
+    max-width: 100%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+
+
+}
+.velvetPic1{
+    height: 24em;
+    width: 16em;
+    background-color: orange;
+    margin: 2em;
+}
+.velvetPic2{
+    height: 24em;
+    width: 16em;
+    background-color: orange;
+    margin: 2em;
+}
+.velvetPic3{
+    height: 24em;
+    width: 16em;
+    background-color: orange;
+    margin: 2em;
+}
+.velvetPic4{
+    height: 24em;
+    width: 16em;
+    background-color: orange;
+    margin: 2em;
+}
+
+
+
+
+
